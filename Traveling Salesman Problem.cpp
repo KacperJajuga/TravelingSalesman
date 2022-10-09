@@ -89,13 +89,13 @@ bool readingData(int arr[][matrixSize], string arr_cities[], int r)
         {
             for (int j=0; j < matrixSize; j++)
             {
-                if (j%15==0 && j!=15)
+                if (j%(matrixSize-1)==0 && j!=(matrixSize-1))
                 {
                     cout << setw(5) << arr_cities[i] << "|";
                 }
                 readingFile >> arr[i][j];
                 cout << setw(5) << arr[i][j] << " ";
-                if (j%15==0 && j!=0)
+                if (j%(matrixSize-1)==0 && j!=0)
                 {
                     cout << endl;
                 }

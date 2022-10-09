@@ -89,13 +89,13 @@ bool wczytywanieDanych(int tab[][rozmiar], string tab_miasta[], int r)
         {
             for (int j=0; j < rozmiar; j++)
             {
-                if (j%15==0 && j!=15)
+                if (j%(rozmiar-1)==0 && j!=(rozmiar-1))
                 {
                     cout << setw(5) << tab_miasta[i] << "|";
                 }
                 odczyt >> tab[i][j];
                 cout << setw(5) << tab[i][j] << " ";
-                if (j%15==0 && j!=0)
+                if (j%(rozmiar-1)==0 && j!=0)
                 {
                     cout << endl;
                 }
