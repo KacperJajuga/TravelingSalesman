@@ -8,7 +8,7 @@ To make this problem a little bit easier to understand, let's take four cities a
  <li>A and D = 8;</li>
  <li>B and C = 20;</li>
  <li>B and D = 14;</li>
- <li>C and D = 6</li>
+ <li>C and D = 6</li></ul>
  
 Let's put this in an array to make it clearer:
  
