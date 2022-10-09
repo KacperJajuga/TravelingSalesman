@@ -12,9 +12,8 @@ To make this problem a little bit easier to understand, let's take four cities a
  
 Let's put this in an array to make it clearer:
  
-||A|B|C|D|
-|-|-|-|-|-|
-|A|0|5|10|8|
-|B|5|0|20|14|
-|C|10|20|0|6|
-|D|8|14|6|0|
+||**A**|**B**|**C**|**D**|
+|**A**|0|5|10|8|
+|**B**|5|0|20|14|
+|**C**|10|20|0|6|
+|**D**|8|14|6|0|
