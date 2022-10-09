@@ -46,7 +46,7 @@ int main()
 
         for (int i = 0; i < rozmiar; i++)
         {
-            L += najkrotszaOdlegloscDoNastepnegoMiasta(D, rozmiar, odwiedzone_miasta, aktualne_miasto, wektor); //funkcja zwroci najkrotsza droge dla miasta, w kturym aktualnie przebywamy i zsumuje ja w zmiennej L
+            L += najkrotszaOdlegloscDoNastepnegoMiasta(D, rozmiar, odwiedzone_miasta, aktualne_miasto, wektor); //funkcja zwroci najkrotsza droge dla miasta, w ktorym aktualnie przebywamy i zsumuje ja w zmiennej L
         }
 
         cout << "Calkowita droga to: " << L << endl;  //wyswietlanie dlugosci przebytej drogi
